@@ -1,7 +1,3 @@
-# Beautiful GitHub README for AI-ML Internship Portfolio
-
-Here's a comprehensive, professional GitHub README.md that will make your gesture-controlled 3D engine project stand out for AI-ML internship applications:
-
 ```markdown
 <div align="center">
 

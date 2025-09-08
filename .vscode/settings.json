@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "C:/Custom-3D-Engine-With-Gesture-Control/backend",
+    "files.associations": {
+        "*.py": "python",
+        "filesystem": "cpp",
+        "iostream": "cpp"
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IITaku 3D Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IITaku 3D Engine</h1>
+        <div class="viewport-controls">
+            <h3>Viewport Modes</h3>
+            <div class="mode-buttons">
+                <button onclick="setViewportMode('wireframe')" class="mode-btn" id="wireframe-btn">
+                    Wireframe
+                </button>
+                <button onclick="setViewportMode('solid')" class="mode-btn active" id="solid-btn">
+                    Solid
+                </button>
+                <button onclick="setViewportMode('material')" class="mode-btn" id="material-btn">
+                    Material
+                </button>
+                <button onclick="setViewportMode('rendered')" class="mode-btn" id="rendered-btn">
+                    Rendered
+                </button>
+            </div>
+            
+            <div class="toggle-controls">
+                <button onclick="toggleWireframe()" class="toggle-btn" id="wireframe-toggle">
+                    Wireframe Overlay: OFF
+                </button>
+                <button onclick="toggleBackface()" class="toggle-btn" id="backface-toggle">
+                    Backface Culling: ON
+                </button>
+            </div>
+        </div>
+        <div class="controls">
+            <p>Gesture Status: <span id="gestureStatus">Waiting for connection...</span></p>
+            <div class="manual-controls">
+                <button onclick="cube.rotate(0.1, 0, 0)">
+                    Rotate X
+                </button>
+                <button onclick="cube.rotate(0, 0.1, 0)">
+                    Rotate Y
+                </button>
+                <button onclick="cube.rotate(0, 0, 0.1)">
+                    Rotate Z
+                </button>
+                <button onclick="cube.resetRotation()">
+                    Reset
+                </button>
+            </div>
+        </div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <div class="info">
+            <p>Keyboard shortcuts: 1=Wireframe, 2=Solid, 3=Material, 4=Rendered, W=Toggle Wireframe</p>
+            <p>Use gesture controls or manual buttons to rotate the 3D cube</p>
+            <p>Press 'R' to reset, Arrow keys for manual rotation</p>
+        </div>
+    </div>
+
+    <script src="engine.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

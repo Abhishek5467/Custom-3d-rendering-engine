@@ -1,0 +1,10 @@
+^C:\CUSTOM-3D-ENGINE-WITH-GESTURE-CONTROL\BACKEND\BUILD\CMAKEFILES\648613D871E825A277F7FC7497FDD84C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Custom-3D-Engine-With-Gesture-Control/backend -BC:/Custom-3D-Engine-With-Gesture-Control/backend/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Custom-3D-Engine-With-Gesture-Control/backend/build/gesture_detector.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

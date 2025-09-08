@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Custom-3D-Engine-With-Gesture-Control/backend/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,3 @@
+C:/Custom-3D-Engine-With-Gesture-Control/backend/build/CMakeFiles/gesture_detector.dir
+C:/Custom-3D-Engine-With-Gesture-Control/backend/build/CMakeFiles/ALL_BUILD.dir
+C:/Custom-3D-Engine-With-Gesture-Control/backend/build/CMakeFiles/ZERO_CHECK.dir

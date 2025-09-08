@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    color: #00ff41;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #00ff41;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ff41;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(0, 255, 65, 0.1);
+    border: 1px solid #00ff41;
+    border-radius: 8px;
+}
+
+#gestureStatus {
+    font-weight: bold;
+    color: #00ff41;
+}
+
+.manual-controls {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #00ff41;
+    color: #1a1a1a;
+    box-shadow: 0 0 10px #00ff41;
+}
+
+#canvas {
+    border: 2px solid #00ff41;
+    border-radius: 8px;
+    background: #0a0a0a;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 255, 65, 0.05);
+    border: 1px solid rgba(0, 255, 65, 0.3);
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.info p {
+    margin: 5px 0;
+    color: rgba(0, 255, 65, 0.8);
+}
+
+@media (max-width: 768px) {
+    .controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .manual-controls {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #canvas {
+        width: 100%;
+        height: auto;
+    }
+}

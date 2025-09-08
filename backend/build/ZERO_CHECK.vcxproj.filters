@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Custom-3D-Engine-With-Gesture-Control\backend\build\CMakeFiles\648613d871e825a277f7fc7497fdd84c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{34943B39-7E9A-343C-AABE-550DC394EB7E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -107,7 +107,6 @@ public:
         
         // Gesture recognition based on finger count
         switch (fingers) {
-            case 0:
             case 1:
                 return "ZOOM_OUT";
             case 2:

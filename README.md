@@ -19,7 +19,7 @@
 [🎯 Features](#-features) •
 [📊 Performance](#-performance-metrics)
 
-![Demo GIF](https://via.placeholder.com/800x400/1a1a1a/00ff41?text=Gesture+Controlled+3D+Engine+Demo)
+![Demo GIF](/shared/demo-c3rs.mp4)
 
 </div>
 
@@ -30,7 +30,7 @@
 This project demonstrates a **production-ready AI system** that seamlessly integrates advanced computer vision techniques with interactive 3D graphics. Users control a sophisticated 3D environment through natural hand gestures, showcasing practical applications of machine learning in human-computer interaction.
 
 ### 🎥 Live Demo
-> **[🔗 Try the Live Demo](https://your-demo-link.com)** | **[📺 Watch Video Demo](https://your-video-link.com)**
+> **[📺 Watch Video Demo](https://your-video-link.com)**
 
 ---
 
